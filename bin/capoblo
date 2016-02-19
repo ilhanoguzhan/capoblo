@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+require 'rubygems'
+$:.unshift File.expand_path '../lib', File.dirname(__FILE__)
+
+require "capoblo"
+
+
+## Connected Arduinos Information
+ARDUINO_ONE_PORT = "/dev/ttyACM0"
+puts ARDUINO_ONE_PORT
+
+
+## Setting Up and connect Arduinos
+ARDUINO_ONE = InterfaceConnection.get_interface
+
+#Rack::Server.start :app => WebInterface
+sleep 1
