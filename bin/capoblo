@@ -3,6 +3,7 @@ require 'rubygems'
 $:.unshift File.expand_path '../lib', File.dirname(__FILE__)
 
 require "capoblo"
+require "capoblo/interface_connection"
 
 
 ## Connected Arduinos Information
