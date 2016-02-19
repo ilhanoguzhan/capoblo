@@ -5,7 +5,6 @@ module Capoblo
   #(http://rubygems.org/gems/serialport)
     require "rubygems"
     require "arduino_firmata"
-    require 'rubyserial'
 
     #require "date"
 
